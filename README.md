@@ -20,6 +20,7 @@ A web-based application to detect faults in solar panels from images using a dee
   * Estimated output efficiency
 * Lightweight Flask web interface
 * Uses MobileNetV2 or custom CNN models
+* Styled using custom CSS (`static/css/style.css`)
 
 ## Dataset
 
@@ -110,7 +111,10 @@ efficiency_map = {
 ├── dataset/
 │   ├── train/
 │   └── test/
-├── static/uploads/            # Uploaded images during runtime
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── uploads/               # Uploaded images during runtime
 ├── templates/
 │   ├── index.html
 │   └── result.html
@@ -148,4 +152,4 @@ pip install tensorflow flask pillow scikit-learn matplotlib seaborn
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
