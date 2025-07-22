@@ -1,0 +1,17 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+
+# Ignore model files
+solar_fault_classifier.h5
+
+# Ignore uploaded images
+static/uploads/*
+
+# Ignore local datasets
+dataset/
+Faulty_solar_panel/
+
+# Ignore virtual environments
+venv/
+.env/
