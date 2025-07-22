@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <h1>Prediction Result</h1>
@@ -9,7 +10,6 @@
     <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image" style="max-width:400px;"/>
     
     <p><strong>Estimated Efficiency:</strong> {{ efficiency }}%</p>
-    <!-- Optional: show predicted class and confidence -->
       <p><strong>Predicted Condition:</strong> {{ predicted_class }}</p> 
      <p><strong>Confidence:</strong> {{ confidence }}%</p> 
     <a href="/">Try another image</a>
