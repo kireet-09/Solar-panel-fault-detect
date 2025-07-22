@@ -21,6 +21,21 @@ A web-based application to detect faults in solar panels from images using a dee
 * Lightweight Flask web interface
 * Uses MobileNetV2 or custom CNN models
 
+## Dataset
+
+This project uses the publicly available [Solar Panel Images Dataset](https://www.kaggle.com/datasets/pythonafroz/solar-panel-images) from Kaggle.
+
+* The dataset contains labeled images categorized into six classes:
+
+  * Bird-drop
+  * Clean
+  * Dusty
+  * Electrical-damage
+  * Physical-Damage
+  * Snow-Covered
+
+* These images are organized into folders and used for training and testing.
+
 ## Model Training
 
 Two training options are provided:
@@ -129,7 +144,7 @@ pip install tensorflow flask pillow scikit-learn matplotlib seaborn
 ## Author
 
 * \[S Krishna Kireeti, Sanjay Bhargav]
-* &#x20;AI-Powered Image Classification
+* AI-Powered Image Classification
 
 ## License
 
